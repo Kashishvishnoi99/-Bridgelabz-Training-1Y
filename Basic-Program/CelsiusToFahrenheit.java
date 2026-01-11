@@ -11,6 +11,6 @@ public class CelsiusToFahrenheit {
         float  celsius = scanner.nextFloat(); 
         float fahrenheit = convertToFahrenheit(celsius); 
         System.out.println("Temperature in Fahrenheit: " + fahrenheit);
-        scanner.close();
+
     }
 }
