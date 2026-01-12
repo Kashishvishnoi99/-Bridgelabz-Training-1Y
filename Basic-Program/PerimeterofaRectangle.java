@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class  PerimeterofaRectangle{
+public class PerimeterofaRectangle{
 	public static int PerimeterofaRectangle(int length,int width){
 		return 2*(length + width);
 	}
