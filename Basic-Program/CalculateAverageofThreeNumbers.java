@@ -13,7 +13,7 @@ public class CalculateAverageofThreeNumbers{
 	    float n2 = sc.nextFloat();
 		float n3 = sc.nextFloat();
 		
-		int calAverage = CalculateAverageofThreeNumbers(n1,n2,n3);
+		float calAverage = CalculateAverageofThreeNumbers(n1,n2,n3);
 		 
         System.out.println("The average of Three numbers is : "+calAverage);
 
