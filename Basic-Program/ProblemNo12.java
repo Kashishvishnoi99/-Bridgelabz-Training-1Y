@@ -1,9 +1,10 @@
 import java.util.Scanner;
-public class ProblemNo12{
+public class ProblemNo13{
 	public static void main(String[] args){
 		
 		 Scanner input = new Scanner(System.in);
 		 System.out.println("Enter Base and Height");
+		 
 		 double Height = input.nextDouble();
 		 double Base = input.nextDouble();
 		 double AreaOfTraingleInches = 0.5 * Base * Height; 
