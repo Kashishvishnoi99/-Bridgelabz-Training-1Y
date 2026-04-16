@@ -1,5 +1,8 @@
 package com.gla;
 
 public class Faculty extends Person {
-    private String subject;
+
+    public Faculty(int id, String name) {
+        super(id, name);
+    }
 }

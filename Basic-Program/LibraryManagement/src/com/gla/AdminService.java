@@ -1,8 +1,13 @@
 package com.gla;
 
 public class AdminService {
-    public boolean registerAdmin{
+    private LibraryService service;
 
+    public AdminService(LibraryService service) {
+        this.service = service;
     }
-    public boolean
+
+    public void addBook(int id, String title, String author) {
+        service.addBook(new Book(id, title, author));
+    }
 }
